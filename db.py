@@ -18,7 +18,6 @@ def main():
 )
 connection.commit()
 
-print(cursor.execute("SELECT * FROM ish_joyi_kerak").fetchall())
 
 def create_user(*args):
     """
